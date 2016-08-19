@@ -1,3 +1,6 @@
+link:
+	ln -s cv.pdf vashevko-cv.pdf
+
 cv:
 	make cv.pdf
 
