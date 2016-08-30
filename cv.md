@@ -13,10 +13,12 @@ info:
     phone: 1 (617) 610-1159
     email: vashevko@stanford.edu
     website: www.stanford.edu/~vashevko
-research: "Organization Theory, Innovation, Strategy, Market Categories, Theory
-    Formalization, Entrepreneurship, Social Network Theory, Organizational Culture"
+research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
+    Categories, Norms and Institutions, Complexity, Theory Formalization, Social
+    Network Theory, Organizational Culture"
 teaching:
-    interests:   "Organizational strategy, Innovation and entrepreneurship, Social network analysis"
+    interests:   "Strategy, Organizational Theory, Organizational Design,
+    Innovation, Entrepreneurship, Social Network Analysis"
     experience:
         -   name: Strategic Leadership
             role: Course Assistant for Jesper S\o rensen
@@ -29,6 +31,19 @@ teaching:
             date: Summer 2013
 skills: R, Python, Stata, Pandoc, Markdown, \LaTeX, Haskell, Java, C#, MATLAB,
     HTML/JS/CSS, Git
+references:
+    -   name: Amir Goldberg
+        role: Assistant Professor of Organizational Behavior
+        email: amirgo@stanford.edu
+        phone: 1 (650) 725-7926
+    -   name: William Barnett
+        role: Thomas M. Siebel Professor of Business Leadership, Strategy, and Organizations
+        email: william.barnett@stanford.edu
+        phone: 1 (650) 723-1421
+    -   name: Glenn Carroll
+        role: Laurence W. Lane Professor of Organizations
+        email: gcarroll@stanford.edu
+        phone: 1 (650) 736-1152
 paper:
     -   title: Does the Middle Conform or Compete? Risk and Quality Thresholds Predict the Locus of Innovation
         author: \textbf{Vashevko, A.}
