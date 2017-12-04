@@ -2,17 +2,18 @@
 debug: "false"
 contact: false
 fontsize: 11pt
-mainfont: Cormorant Garamond
-#mainfont: Cormorant
+#mainfont: Cormorant Garamond
+mainfont: Cormorant
 sectionfont: \Large\fontspec{Cormorant SC Bold}
 info:
     first: Anthony
     last: Vashevko
-    address1: 655 Knight Way
-    address2: Stanford, CA 94305
-    phone: 1 (617) 610-1159
-    email: vashevko@stanford.edu
-    website: www.stanford.edu/~vashevko
+    address1: 5 Arts Link
+    address2: Singapore 117570
+    phone:
+        -   +1 (617) 610-1159 / +65 8202 6775
+    email: socamv@nus.edu.sg
+    website: tony.vashevko.com
 research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
     Categories, Norms and Institutions, Complexity, Theory Formalization, Social
     Network Theory, Organizational Culture"
@@ -20,6 +21,12 @@ teaching:
     interests:   "Strategy, Organizational Theory, Organizational Design,
     Innovation, Entrepreneurship, Social Network Analysis"
     experience:
+        -   name: Leading Through Culture
+            role: Course Assistant for Glenn Carroll
+            date: Winter 2017
+        -   name: Strategic Leadership
+            role: Course Assistant for William Barnett
+            date: Fall 2016
         -   name: Strategic Leadership
             role: Course Assistant for Jesper S\o rensen
             date: Fall 2015
@@ -29,7 +36,7 @@ teaching:
         -   name: Data and Decisions
             role: Course Assistant for Sharique Hasan
             date: Summer 2013
-skills: R, Python, Stata, Pandoc, Markdown, \LaTeX, Haskell, Java, C#, MATLAB,
+skills: R, Python, Stata, Pandoc/Markdown, \LaTeX, Haskell, Java, C#, MATLAB,
     HTML/JS/CSS, Git
 references:
     -   name: Amir Goldberg
@@ -44,10 +51,16 @@ references:
         role: Laurence W. Lane Professor of Organizations
         email: gcarroll@stanford.edu
         phone: 1 (650) 736-1152
+positions:
+    -   year: August 2017- 
+        role: Postdoctoral Fellow at Global Production Network Centre/Sociology
+        institution: National University of Singapore
+        city: Singapore
 paper:
-    -   title: Does the Middle Conform or Compete? Risk and Quality Thresholds Predict the Locus of Innovation
+    -   title: Does the Middle Conform or Compete? Quality Thresholds Predict the Locus of Innovation
         author: \textbf{Vashevko, A.}
-        wp: 1
+        review: 1
+        status: (revise & resubmit, \textbf{Organization Science})
         pres:
             -   name: Academy of Management
                 place: Anaheim, CA
@@ -58,13 +71,16 @@ paper:
             -   name: Stanford/Berkeley OB Conference
                 place: Stanford, CA
                 date: January 2016
-    -   title: Producer Exploration Can Generate Categories without Audiences
+    -   title: Producer Exploration can Generate Categories without Audiences
         author: \textbf{Vashevko, A.}
         wp: 1
         pres:
             -   name: Academy of Management
                 place: Anaheim, CA
                 date: August 2016
+    -   title: Visualizing Hierachical Social Networks
+        author: Gemici, K., \textbf{A. Vashevko}
+        wp: 1
     -   title: "Pay Attention: Object Consideration as a Mechanism of Network Diffusion"
         author: \textbf{Vashevko, A.}
         wp: 1
@@ -86,7 +102,7 @@ paper:
                 place: New York, NY
                 date: August 2013
     -   title: "Assembling teams for success: how research teams win funding"
-        author: Contractor, N., \textbf{A. Vashevko, A.}, C. Chang
+        author: Contractor, N., \textbf{A. Vashevko}, C. Chang
         pres:
             -   name: Sunbelt XXXII, International Network for Social Network Analysis
                 place: Redondo Beach, CA
@@ -113,11 +129,11 @@ professional:
             role: Contributor
             name: Administrative Science Quarterly Blog
 education:
-    -   year: Expected June 2017
+    -   year: June 2017
         city: Stanford, CA
         institution: Stanford University Graduate School of Business
         grade:
-        degree: PhD Candidate, Organizational Behavior
+        degree: PhD, Organizational Behavior
         description: "
             \\cvlistitem{Dissertation: ``Strategic Responses to Categorization''}
             \\cvlistitem{Committee: Amir Goldberg (Primary Advisor), William Barnett, Glenn Carroll}

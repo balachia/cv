@@ -68,9 +68,7 @@ $endif$
 \firstname{$info.first$}
 \familyname{$info.last$}
 \address{$info.address1$}{$info.address2$} 
-$for(info.phone)$
 \phone{$info.phone$} 
-$endfor$
 \email{$info.email$} 
 \homepage{$info.website$} 
 
@@ -86,118 +84,6 @@ $endfor$
 %% Content
 %%------------------------------------------------------------------------------
 \begin{document}
-\thispagestyle{empty}
-%\vspace*{-2em}
-\makecvtitle
-
-\vspace*{-2.5em}
-
-$if(positions)$
-\section{Position}
-$for(positions)$
-\cventry{$positions.year$}{$positions.institution$}{$positions.role$}{$positions.city$}{}{}
-$endfor$
-$endif$
-
-$if(education)$
-\section{Education}
-$for(education)$
-\cventry{$education.year$}{$education.degree$}{$education.institution$}{$education.city$}{$education.grade$}{$education.description$}
-
-$endfor$
-$endif$
-
-% research
-\section{Research Interests}
-$research$
-
-% pubs
-\section{Publications \& Under Review}
-$for(paper)$
-$if(paper.pub)$
-$paper.author$. $paper.pub.year$. ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$. \medskip\bp
-
-$endif$
-$if(paper.review)$
-$paper.author$. ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
-
-$endif$
-$endfor$
-
-% working papers
-\section{Work in Progress}
-$for(paper)$
-$if(paper.wp)$
-$paper.author$. ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
-
-$endif$
-$endfor$
-
-% conference presentations
-\section{Conference Presentations}
-$for(paper)$
-$if(paper.pres)$
-$paper.author$. ``$paper.title$.'' \\
-$for(paper.pres)$
-%\cvlistitem{$paper.pres.name$. \textit{$paper.pres.place$}. $paper.pres.date$}
-\cvitemwithcomment{}{\qquad $paper.pres.name$. \textit{$paper.pres.place$}}{$paper.pres.date$}
-$endfor$
-\medskip\bp
-
-$endif$
-$endfor$
-
-% teaching
-\section{Teaching Interests}
-$teaching.interests$
-
-\bp
-
-\section{Teaching Experience}
-$for(teaching.experience)$
-\cvitemwithcomment{$teaching.experience.name$}{$teaching.experience.role$}{$teaching.experience.date$} \medskip
-
-$endfor$
-\bp
-
-% professional
-\section{Professional Activities and Service}
-\subsection{Affiliations}
-$for(professional.member)$
-\cvitemwithcomment{}{\textbf{$professional.member.name$}}{$professional.member.date$}
-
-$endfor$
-\bp
-
-\subsection{Reviewing}
-$for(professional.review)$
-\cvitemwithcomment{}{$professional.review.role$, \textbf{$professional.review.name$}}{$professional.review.date$}
-
-$endfor$
-\bp
-
-\subsection{Etc.}
-$for(professional.other)$
-\cvitemwithcomment{}{$professional.other.role$, \textbf{$professional.other.name$}}{$professional.other.date$}
-
-$endfor$
-\bp
-
-% raship
-\section{Research Assistantships}
-$for(ras)$
-\cventry{$ras.date$}{$ras.institution$}{$ras.name$}{$ras.place$}{} \medskip\bp[-5]
-%\cvitemwithcomment{$ras.name$}{$ras.place$}{$ras.date$} \medskip
-
-$endfor$
-\bp
-
-% skills
-\section{Technical Skills}
-$skills$
-
-\medskip
-\bp
 
 % references
 \section{References}

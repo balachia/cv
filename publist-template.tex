@@ -86,30 +86,6 @@ $endfor$
 %% Content
 %%------------------------------------------------------------------------------
 \begin{document}
-\thispagestyle{empty}
-%\vspace*{-2em}
-\makecvtitle
-
-\vspace*{-2.5em}
-
-$if(positions)$
-\section{Position}
-$for(positions)$
-\cventry{$positions.year$}{$positions.institution$}{$positions.role$}{$positions.city$}{}{}
-$endfor$
-$endif$
-
-$if(education)$
-\section{Education}
-$for(education)$
-\cventry{$education.year$}{$education.degree$}{$education.institution$}{$education.city$}{$education.grade$}{$education.description$}
-
-$endfor$
-$endif$
-
-% research
-\section{Research Interests}
-$research$
 
 % pubs
 \section{Publications \& Under Review}
@@ -132,94 +108,6 @@ $paper.author$. ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endi
 
 $endif$
 $endfor$
-
-% conference presentations
-\section{Conference Presentations}
-$for(paper)$
-$if(paper.pres)$
-$paper.author$. ``$paper.title$.'' \\
-$for(paper.pres)$
-%\cvlistitem{$paper.pres.name$. \textit{$paper.pres.place$}. $paper.pres.date$}
-\cvitemwithcomment{}{\qquad $paper.pres.name$. \textit{$paper.pres.place$}}{$paper.pres.date$}
-$endfor$
-\medskip\bp
-
-$endif$
-$endfor$
-
-% teaching
-\section{Teaching Interests}
-$teaching.interests$
-
-\bp
-
-\section{Teaching Experience}
-$for(teaching.experience)$
-\cvitemwithcomment{$teaching.experience.name$}{$teaching.experience.role$}{$teaching.experience.date$} \medskip
-
-$endfor$
-\bp
-
-% professional
-\section{Professional Activities and Service}
-\subsection{Affiliations}
-$for(professional.member)$
-\cvitemwithcomment{}{\textbf{$professional.member.name$}}{$professional.member.date$}
-
-$endfor$
-\bp
-
-\subsection{Reviewing}
-$for(professional.review)$
-\cvitemwithcomment{}{$professional.review.role$, \textbf{$professional.review.name$}}{$professional.review.date$}
-
-$endfor$
-\bp
-
-\subsection{Etc.}
-$for(professional.other)$
-\cvitemwithcomment{}{$professional.other.role$, \textbf{$professional.other.name$}}{$professional.other.date$}
-
-$endfor$
-\bp
-
-% raship
-\section{Research Assistantships}
-$for(ras)$
-\cventry{$ras.date$}{$ras.institution$}{$ras.name$}{$ras.place$}{} \medskip\bp[-5]
-%\cvitemwithcomment{$ras.name$}{$ras.place$}{$ras.date$} \medskip
-
-$endfor$
-\bp
-
-% skills
-\section{Technical Skills}
-$skills$
-
-\medskip
-\bp
-
-% references
-\section{References}
-$for(references)$
-\textbf{$references.name$}
-
-$references.role$
-
-$references.email$
-
-$references.phone$
-\medskip\bp[-5]
-$endfor$
-
-%\section{Education}
-%\cventry{year--year}{Degree}{Institution}{City}{ \textit{Grade} }{Description}  % arguments 3 to 6 can be left empty
-%\cvitem{title}{ \emph{Title} }
-%\cvitemwithcomment{Language 1}{Skill level}{Comment}
-%\cvdoubleitem{category X}{XXX, YYY, ZZZ}{category Y}{XXX, YYY, ZZZ}
-%\cvlistitem{Item 1}
-%\cvlistdoubleitem{Item 2}{Item 3}
-%% ...
 
 \bibliography{publications}
 \end{document}
