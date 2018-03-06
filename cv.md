@@ -3,8 +3,12 @@ debug: "false"
 contact: false
 fontsize: 11pt
 #mainfont: Cormorant Garamond
-mainfont: Cormorant
-sectionfont: \Large\fontspec{Cormorant SC Bold}
+#mainfont: Cormorant
+#sectionfont: \Large\fontspec{Cormorant SC Bold}
+#namefont: \LARGE\bfseries\upshape
+mainfont: Lato
+sectionfont: \Large\fontspec{Raleway Light}
+namefont: \huge\fontspec{Raleway Light}
 info:
     first: Anthony
     last: Vashevko
@@ -14,9 +18,11 @@ info:
         -   +1 (617) 610-1159 / +65 8202 6775
     email: socamv@nus.edu.sg
     website: tony.vashevko.com
+#research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
+#    Categories, Norms and Institutions, Complexity, Theory Formalization, Social
+#    Network Theory, Organizational Culture"
 research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
-    Categories, Norms and Institutions, Complexity, Theory Formalization, Social
-    Network Theory, Organizational Culture"
+    Categories, Theory Formalization, Social Network Theory, Organizational Culture"
 teaching:
     interests:   "Strategy, Organizational Theory, Organizational Design,
     Innovation, Entrepreneurship, Social Network Analysis"
@@ -62,6 +68,12 @@ paper:
         review: 1
         status: (revise & resubmit, \textbf{Organization Science})
         pres:
+            -   name: University of Hong Kong
+                place: Hong Kong
+                date: March 2018
+            -   name: Singapore Management University
+                place: Singapore
+                date: November 2016
             -   name: Academy of Management
                 place: Anaheim, CA
                 date: August 2016
@@ -79,6 +91,11 @@ paper:
                 place: Anaheim, CA
                 date: August 2016
     -   title: Visualizing Hierachical Social Networks
+        author: Gemici, K., \textbf{A. Vashevko}
+        review: 1
+        status: (conditional acceptance, \textbf{Socius})
+    -   title: "Embeddedness and Structural Cohesion: A Comment and Correction
+        on Cohesive Blocking"
         author: Gemici, K., \textbf{A. Vashevko}
         wp: 1
     -   title: "Pay Attention: Object Consideration as a Mechanism of Network Diffusion"
@@ -104,7 +121,7 @@ paper:
     -   title: "Assembling teams for success: how research teams win funding"
         author: Contractor, N., \textbf{A. Vashevko}, C. Chang
         pres:
-            -   name: Sunbelt XXXII, International Network for Social Network Analysis
+            -   name: Sunbelt XXXII, INSNA
                 place: Redondo Beach, CA
                 date: March 2012
     -   title: "Dynamic Models of Communication in an Online Friendship Network"

@@ -37,7 +37,9 @@ $endif$
 %\renewcommand{\labelitemi}{\makebox[0.5in][c]{\textbf{---}}}
 %\renewcommand{\labelitemi}{\makebox[0.25in][c]{}}
 \renewcommand{\labelitemi}{\qquad}
-\renewcommand*{\namefont}{\LARGE\bfseries\upshape}
+$if(namefont)$
+\renewcommand*{\namefont}{$namefont$}
+$endif$
 
 
 % change contact icons
