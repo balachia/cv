@@ -66,7 +66,7 @@ paper:
     -   title: Does the Middle Conform or Compete? Quality Thresholds Predict the Locus of Innovation
         author: \textbf{Vashevko, A.}
         review: 1
-        status: (revise & resubmit, \textbf{Organization Science})
+        status: (invited for minor revision, \textbf{Organization Science})
         pres:
             -   name: University of Hong Kong
                 place: Hong Kong
