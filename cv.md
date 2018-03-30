@@ -93,7 +93,7 @@ paper:
     -   title: Visualizing Hierachical Social Networks
         author: Gemici, K., \textbf{A. Vashevko}
         review: 1
-        status: (conditional acceptance, \textbf{Socius})
+        status: (forthcoming, \textbf{Socius})
     -   title: "Embeddedness and Structural Cohesion: A Comment and Correction
         on Cohesive Blocking"
         author: Gemici, K., \textbf{A. Vashevko}
