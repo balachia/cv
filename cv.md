@@ -92,8 +92,11 @@ paper:
                 date: August 2016
     -   title: Visualizing Hierachical Social Networks
         author: Gemici, K., \textbf{A. Vashevko}
-        review: 1
-        status: (forthcoming, \textbf{Socius})
+        pub:
+            journal: Socius
+            volume: 4
+            year: 2018
+            pp: 1-12
     -   title: "Embeddedness and Structural Cohesion: A Comment and Correction
         on Cohesive Blocking"
         author: Gemici, K., \textbf{A. Vashevko}
@@ -141,6 +144,13 @@ professional:
         -   date: 2015-
             role: Reviewer
             name: Academy of Management Annual Meeting
+            award:
+                -   date: 2018
+                    role: Best Reviewer Award
+                    name: TIM Division
+                -   date: 2018
+                    role: Best Reviewer Award
+                    name: OMT Division
     other:
         -   date: 2016-
             role: Contributor

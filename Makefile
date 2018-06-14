@@ -7,25 +7,25 @@ cv:
 
 references: cv.md references-template.tex
 	pandoc -r markdown -t latex -o references.pdf \
-	    --latex-engine=lualatex \
+	    --pdf-engine=lualatex \
 	    --template=references-template.tex \
 	    $<
 
 publist: cv.md publist-template.tex
 	pandoc -r markdown -t latex -o publist.pdf \
-	    --latex-engine=lualatex \
+	    --pdf-engine=lualatex \
 	    --template=publist-template.tex \
 	    $<
 
 %.pdf: %.md cv-template.tex
 	pandoc -r markdown -t latex -o $@ \
-	    --latex-engine=lualatex \
+	    --pdf-engine=lualatex \
 	    --template=cv-template.tex \
 	    $<
 
 %.tex: %.md cv-template.tex
 	pandoc -r markdown -t latex -o $@ \
-	    --latex-engine=lualatex \
+	    --pdf-engine=lualatex \
 	    --template=cv-template.tex \
 	    $<
 
