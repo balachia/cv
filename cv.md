@@ -68,6 +68,9 @@ paper:
         review: 1
         status: (invited for minor revision, \textbf{Organization Science})
         pres:
+            -   name: Strategy Science Conference
+                place: Philadelphia, PA
+                date: June 2018
             -   name: University of Hong Kong
                 place: Hong Kong
                 date: March 2018
