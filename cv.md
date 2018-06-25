@@ -74,9 +74,11 @@ paper:
             -   name: University of Hong Kong
                 place: Hong Kong
                 date: March 2018
+                invited: 1
             -   name: Singapore Management University
                 place: Singapore
                 date: November 2016
+                invited: 1
             -   name: Academy of Management
                 place: Anaheim, CA
                 date: August 2016
@@ -90,6 +92,9 @@ paper:
         author: \textbf{Vashevko, A.}
         wp: 1
         pres:
+            -   name: Society for the Advancement of Socio-Economics
+                place: Kyoto, Japan
+                date: June 2018
             -   name: Academy of Management
                 place: Anaheim, CA
                 date: August 2016
