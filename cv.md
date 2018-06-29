@@ -66,7 +66,7 @@ paper:
     -   title: Does the Middle Conform or Compete? Quality Thresholds Predict the Locus of Innovation
         author: \textbf{Vashevko, A.}
         review: 1
-        status: (invited for minor revision, \textbf{Organization Science})
+        status: (accepted, \textbf{Organization Science})
         pres:
             -   name: Strategy Science Conference
                 place: Philadelphia, PA
