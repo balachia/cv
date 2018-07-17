@@ -12,19 +12,18 @@ namefont: \huge\fontspec{Raleway Light}
 info:
     first: Anthony
     last: Vashevko
-    address1: 5 Arts Link
-    address2: Singapore 117570
+    address1: 5 Nepal Park
+    address2: Singapore 139408
     phone:
         -   +1 (617) 610-1159 / +65 8202 6775
-    email: socamv@nus.edu.sg
+    email: vashevko@essec.edu
     website: tony.vashevko.com
 #research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
 #    Categories, Norms and Institutions, Complexity, Theory Formalization, Social
 #    Network Theory, Organizational Culture"
-research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
-    Categories, Theory Formalization, Social Network Theory, Organizational Culture"
+research: "Strategy, Organizational Theory, Innovation, Categories, Social Network Theory"
 teaching:
-    interests:   "Strategy, Organizational Theory, Organizational Design,
+    interests:   "Strategy, Organizational Behavior, Organizational Design,
     Innovation, Entrepreneurship, Social Network Analysis"
     experience:
         -   name: Leading Through Culture
@@ -58,7 +57,11 @@ references:
         email: gcarroll@stanford.edu
         phone: 1 (650) 736-1152
 positions:
-    -   year: August 2017- 
+    -   year: June 2018-
+        role: Postdoctoral Fellow, Department of Management
+        institution: ESSEC Business School
+        city: Singapore
+    -   year: August 2017-June 2018
         role: Postdoctoral Fellow at Global Production Network Centre/Sociology
         institution: National University of Singapore
         city: Singapore
@@ -107,6 +110,9 @@ paper:
             pp: 1-12
     -   title: "Embeddedness and Structural Cohesion: A Comment and Correction
         on Cohesive Blocking"
+        author: Gemici, K., \textbf{A. Vashevko}
+        wp: 1
+    -   title: "Cohesive Blocking and Strength of Ties"
         author: Gemici, K., \textbf{A. Vashevko}
         wp: 1
     -   title: "Pay Attention: Object Consideration as a Mechanism of Network Diffusion"
@@ -160,7 +166,7 @@ professional:
                     role: Best Reviewer Award
                     name: OMT Division
     other:
-        -   date: 2016-
+        -   date: 2016
             role: Contributor
             name: Administrative Science Quarterly Blog
 education:

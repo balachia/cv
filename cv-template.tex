@@ -114,14 +114,15 @@ $endif$
 $research$
 
 % pubs
-\section{Publications \& Under Review}
+%\section{Publications \& Under Review}
+\section{Publications}
 $for(paper)$
 $if(paper.pub)$
-$paper.author$. $paper.pub.year$. ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$. \medskip\bp
+$paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$. \medskip\bp
 
 $endif$
 $if(paper.review)$
-$paper.author$. ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
+$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
 
 $endif$
 $endfor$
@@ -130,7 +131,7 @@ $endfor$
 \section{Work in Progress}
 $for(paper)$
 $if(paper.wp)$
-$paper.author$. ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
+$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
 
 $endif$
 $endfor$
@@ -139,7 +140,7 @@ $endfor$
 \section{Talks \& Presentations}
 $for(paper)$
 $if(paper.pres)$
-$paper.author$. ``$paper.title$.'' \\
+$paper.author$, ``$paper.title$.'' \\
 $for(paper.pres)$
 %\cvlistitem{$paper.pres.name$. \textit{$paper.pres.place$}. $paper.pres.date$}
 \cvitemwithcomment{}{\qquad $paper.pres.name$. \textit{$paper.pres.place$}}{$paper.pres.date$}
