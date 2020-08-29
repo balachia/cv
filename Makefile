@@ -10,6 +10,10 @@ references: cv.md references-template.tex
 	    --pdf-engine=lualatex \
 	    --template=references-template.tex \
 	    $<
+	pandoc -r markdown -t latex -o references-complete.pdf \
+	    --pdf-engine=lualatex \
+	    --template=references-interfolio-template.tex \
+	    $<
 
 publist: cv.md publist-template.tex
 	pandoc -r markdown -t latex -o publist.pdf \

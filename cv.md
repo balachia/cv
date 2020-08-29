@@ -12,16 +12,17 @@ namefont: \huge\fontspec{Raleway Light}
 info:
     first: Anthony
     last: Vashevko
-    address1: 5 Nepal Park
-    address2: Singapore 139408
+    address1: 1 Ayer Rajah Ave
+    address2: Singapore 138676
     phone:
         -   +1 (617) 610-1159 / +65 8202 6775
-    email: vashevko@essec.edu
+    email: anthony.vashevko@insead.edu
     website: tony.vashevko.com
 #research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
 #    Categories, Norms and Institutions, Complexity, Theory Formalization, Social
 #    Network Theory, Organizational Culture"
-research: "Strategy, Organizational Theory, Innovation, Categories, Social Network Theory"
+research: "Strategy, Organizational Theory, Computational Social Science,
+Innovation, Categories, Social Network Theory"
 teaching:
     interests:   "Strategy, Organizational Behavior, Organizational Design,
     Innovation, Entrepreneurship, Social Network Analysis"
@@ -47,17 +48,24 @@ references:
     -   name: Amir Goldberg
         role: Assistant Professor of Organizational Behavior
         email: amirgo@stanford.edu
+        interfolio: send.Goldberg.7333A91615@interfolio.com
         phone: 1 (650) 725-7926
     -   name: William Barnett
         role: Thomas M. Siebel Professor of Business Leadership, Strategy, and Organizations
         email: william.barnett@stanford.edu
+        interfolio: send.Barnett.3138F381C7@interfolio.com
         phone: 1 (650) 723-1421
     -   name: Glenn Carroll
         role: Laurence W. Lane Professor of Organizations
         email: gcarroll@stanford.edu
+        interfolio: send.Carroll.1FE021DEEF@interfolio.com
         phone: 1 (650) 736-1152
 positions:
-    -   year: June 2018-
+    -   year: July 2019-
+        role: Assistant Professor of Organizational Behavior
+        institution: INSEAD
+        city: Singapore
+    -   year: June 2018-July 2019
         role: Postdoctoral Fellow, Department of Management
         institution: ESSEC Business School
         city: Singapore
@@ -68,8 +76,12 @@ positions:
 paper:
     -   title: Does the Middle Conform or Compete? Quality Thresholds Predict the Locus of Innovation
         author: \textbf{Vashevko, A.}
-        review: 1
         status: (accepted, \textbf{Organization Science})
+        pub:
+            journal: Organization Science
+            volume: 4(1)
+            year: 2019
+            pp: 88-108
         pres:
             -   name: Strategy Science Conference
                 place: Philadelphia, PA
@@ -91,16 +103,34 @@ paper:
             -   name: Stanford/Berkeley OB Conference
                 place: Stanford, CA
                 date: January 2016
-    -   title: Producer Exploration can Generate Categories without Audiences
+    -   title: Producer Exploration Generates Categories without Audiences
         author: \textbf{Vashevko, A.}
         wp: 1
         pres:
+            -   name: McMaster University
+                place: Hamilton, ON
+                date: December 2018
+            -   name: University of Illinois Urbana-Champaign
+                place: Champaign, IL
+                date: December 2018
+            -   name: INSEAD
+                place: Singapore
+                date: November 2018
+            -   name: Chinese University of Hong Kong
+                place: Hong Kong
+                date: November 2018
+            -   name: Bocconi University
+                place: Milan, Italy
+                date: November 2018
             -   name: Society for the Advancement of Socio-Economics
                 place: Kyoto, Japan
                 date: June 2018
             -   name: Academy of Management
                 place: Anaheim, CA
                 date: August 2016
+    -   title: "Regional Variation: Do Leaders Matter?"
+        author: Chatterji, A., \textbf{A. Vashevko}
+        wp: 1
     -   title: Visualizing Hierachical Social Networks
         author: Gemici, K., \textbf{A. Vashevko}
         pub:
