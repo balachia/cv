@@ -95,7 +95,7 @@ $endfor$
 \vspace*{-2.5em}
 
 $if(positions)$
-\section{Position}
+\section{Positions}
 $for(positions)$
 \cventry{$positions.year$}{$positions.institution$}{$positions.role$}{$positions.city$}{}{}
 $endfor$
@@ -110,8 +110,8 @@ $endfor$
 $endif$
 
 % research
-\section{Research Interests}
-$research$
+%\section{Research Interests}
+%$research$
 
 % pubs
 %\section{Publications \& Under Review}
@@ -121,16 +121,16 @@ $if(paper.pub)$
 $paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$. \medskip\bp
 
 $endif$
-$if(paper.review)$
-$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
-
-$endif$
 $endfor$
 
 % working papers
 \section{Work in Progress}
 $for(paper)$
 $if(paper.wp)$
+$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
+
+$endif$
+$if(paper.review)$
 $paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
 
 $endif$
@@ -151,12 +151,12 @@ $endif$
 $endfor$
 
 % teaching
-\section{Teaching Interests}
-$teaching.interests$
+%\section{Teaching Interests}
+%$teaching.interests$
 
 \bp
 
-\section{Teaching Experience}
+\section{Teaching}
 $for(teaching.experience)$
 \cvitemwithcomment{$teaching.experience.name$}{$teaching.experience.role$}{$teaching.experience.date$} \medskip
 
@@ -181,6 +181,11 @@ $for(professional.review.award)$
 $endfor$
 
 $endfor$
+\cvitemwithcomment{}{Ad-Hoc Reviewing}{}
+$for(professional.adhoc)$
+\cvitemwithcomment{}{\qquad $professional.adhoc$}{}
+
+$endfor$
 \bp
 
 \subsection{Etc.}
@@ -190,34 +195,34 @@ $for(professional.other)$
 $endfor$
 \bp
 
-% raship
-\section{Research Assistantships}
-$for(ras)$
-\cventry{$ras.date$}{$ras.institution$}{$ras.name$}{$ras.place$}{} \medskip\bp[-5]
-%\cvitemwithcomment{$ras.name$}{$ras.place$}{$ras.date$} \medskip
+%% raship
+%\section{Research Assistantships}
+%$for(ras)$
+%\cventry{$ras.date$}{$ras.institution$}{$ras.name$}{$ras.place$}{} \medskip\bp[-5]
+%%\cvitemwithcomment{$ras.name$}{$ras.place$}{$ras.date$} \medskip
 
-$endfor$
-\bp
+%$endfor$
+%\bp
 
 % skills
 \section{Technical Skills}
 $skills$
 
-\medskip
-\bp
+%\medskip
+%\bp
 
-% references
-\section{References}
-$for(references)$
-\textbf{$references.name$}
+%% references
+%\section{References}
+%$for(references)$
+%\textbf{$references.name$}
 
-$references.role$
+%$references.role$
 
-$references.email$
+%$references.email$
 
-$references.phone$
-\medskip\bp[-5]
-$endfor$
+%$references.phone$
+%\medskip\bp[-5]
+%$endfor$
 
 %\section{Education}
 %\cventry{year--year}{Degree}{Institution}{City}{ \textit{Grade} }{Description}  % arguments 3 to 6 can be left empty

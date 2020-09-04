@@ -27,21 +27,27 @@ teaching:
     interests:   "Strategy, Organizational Behavior, Organizational Design,
     Innovation, Entrepreneurship, Social Network Analysis"
     experience:
+        -   name: Organizational Behavior II
+            role: INSEAD, Instructor
+            date: 2019
+        -   name: Text Analysis
+            role: INSEAD, Guest Instructor
+            date: 2020
         -   name: Leading Through Culture
-            role: Course Assistant for Glenn Carroll
-            date: Winter 2017
+            role: Stanford, Course Assistant for Glenn Carroll
+            date: 2017
         -   name: Strategic Leadership
-            role: Course Assistant for William Barnett
-            date: Fall 2016
+            role: Stanford, Course Assistant for William Barnett
+            date: 2016
         -   name: Strategic Leadership
-            role: Course Assistant for Jesper S\o rensen
-            date: Fall 2015
+            role: Stanford, Course Assistant for Jesper S\o rensen
+            date: 2015
         -   name: Strategic Leadership
-            role: Course Assistant for Amir Goldberg
-            date: Fall 2014
+            role: Stanford, Course Assistant for Amir Goldberg
+            date: 2014
         -   name: Data and Decisions
-            role: Course Assistant for Sharique Hasan
-            date: Summer 2013
+            role: Stanford, Course Assistant for Sharique Hasan
+            date: 2013
 skills: R, Python, Stata, Pandoc/Markdown, \LaTeX, Haskell, Java, C#, MATLAB,
     HTML/JS/CSS, Git
 references:
@@ -105,8 +111,12 @@ paper:
                 date: January 2016
     -   title: Producer Exploration Generates Categories without Audiences
         author: \textbf{Vashevko, A.}
-        wp: 1
+        review: 1
+        status: (revise & resubmit, \textbf{Organization Science})
         pres:
+            -   name: Strategy Science Conference
+                place: Virtual
+                date: May 2020
             -   name: McMaster University
                 place: Hamilton, ON
                 date: December 2018
@@ -128,6 +138,13 @@ paper:
             -   name: Academy of Management
                 place: Anaheim, CA
                 date: August 2016
+    -   title: The Matthew Effect as Skill and Strategy
+        author: \textbf{Vashevko, A.}
+        wp: 1
+        pres:
+            -   name: Population Ecology Conference
+                place: Virtual
+                date: June 2020
     -   title: "Regional Variation: Do Leaders Matter?"
         author: Chatterji, A., \textbf{A. Vashevko}
         wp: 1
@@ -195,6 +212,10 @@ professional:
                 -   date: 2018
                     role: Best Reviewer Award
                     name: OMT Division
+    adhoc:
+        -   Management Science
+        -   Strategy Science
+        -   Industrial & Corporate Change
     other:
         -   date: 2016
             role: Contributor
