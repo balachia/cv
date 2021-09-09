@@ -29,7 +29,7 @@ teaching:
     experience:
         -   name: Organizational Behavior II
             role: INSEAD, Instructor
-            date: 2019
+            date: 2019-21
         -   name: Text Analysis
             role: INSEAD, Guest Instructor
             date: 2020
@@ -112,8 +112,11 @@ paper:
     -   title: Producer Exploration Generates Categories without Audiences
         author: \textbf{Vashevko, A.}
         review: 1
-        status: (revise & resubmit, \textbf{Organization Science})
+        status: (under second-round review, \textbf{Organization Science})
         pres:
+            -   name: International Conference on Computational Social Science
+                place: Virtual
+                date: July 2021
             -   name: Strategy Science Conference
                 place: Virtual
                 date: May 2020
@@ -216,6 +219,7 @@ professional:
         -   Management Science
         -   Strategy Science
         -   Industrial & Corporate Change
+        -   Cyberpsychology
     other:
         -   date: 2016
             role: Contributor
