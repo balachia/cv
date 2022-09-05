@@ -17,7 +17,7 @@ info:
     phone:
         -   +1 (617) 610-1159 / +65 8202 6775
     email: anthony.vashevko@insead.edu
-    website: tony.vashevko.com
+    #website: tony.vashevko.com
 #research: "Organizational Theory, Innovation, Strategy, Market Boundaries and
 #    Categories, Norms and Institutions, Complexity, Theory Formalization, Social
 #    Network Theory, Organizational Culture"
@@ -29,7 +29,7 @@ teaching:
     experience:
         -   name: Organizational Behavior II
             role: INSEAD, Instructor
-            date: 2019-21
+            date: 2019-22
         -   name: Text Analysis
             role: INSEAD, Guest Instructor
             date: 2020
@@ -109,11 +109,19 @@ paper:
             -   name: Stanford/Berkeley OB Conference
                 place: Stanford, CA
                 date: January 2016
-    -   title: Producer Exploration Generates Categories without Audiences
+    -   title: The Natural Emergence of Category Effects on Rugged Landscapes
+        title0: Producer Exploration Generates Categories without Audiences
         author: \textbf{Vashevko, A.}
         review: 1
-        status: (under second-round review, \textbf{Organization Science})
+        status: (second round major revision, \textbf{Organization Science})
+        awards:
+            -   name: \textbf{Finalist}, Best Proposal Award for Rigor in Research
+                org: SMS Competitive Strategy Interest Group
+                date: August 2022
         pres:
+            -   name: American Sociological Association
+                place: Los Angeles, CA
+                date: August 2022
             -   name: International Conference on Computational Social Science
                 place: Virtual
                 date: July 2021
@@ -145,6 +153,9 @@ paper:
         author: \textbf{Vashevko, A.}
         wp: 1
         pres:
+            -   name: Strategic Management Society
+                place: Virtual
+                date: September 2021
             -   name: Population Ecology Conference
                 place: Virtual
                 date: June 2020
@@ -198,8 +209,16 @@ paper:
             volume: 8(4)
             year: 2014
             pp: 223-243
+service:
+    item:
+        -   name: OB Faculty Recruiting Committee
+            date: 2019-20, 2022-23
+        -   name: OB PhD Recruiting Committee
+            date: 2021-22
 professional:
     member:
+        -   name: Strategic Management Society
+            date: 2021-
         -   name: Academy of Management
             date: 2014-
         -   name: American Sociological Association

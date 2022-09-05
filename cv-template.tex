@@ -118,7 +118,8 @@ $endif$
 \section{Publications}
 $for(paper)$
 $if(paper.pub)$
-$paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$. \medskip\bp
+$paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$.
+\medskip\bp
 
 $endif$
 $endfor$
@@ -126,14 +127,21 @@ $endfor$
 % working papers
 \section{Work in Progress}
 $for(paper)$
+\begin{samepage}
 $if(paper.wp)$
-$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
+$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
 
 $endif$
 $if(paper.review)$
-$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$\medskip\bp
+$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
 
 $endif$
+$for(paper.awards)$
+\cvitemwithcomment{}{\qquad $paper.awards.name$}{$paper.awards.date$}
+\cvitemwithcomment{}{\qquad\quad $paper.awards.org$}{}
+$endfor$
+\medskip\bp
+\end{samepage}
 $endfor$
 
 % conference presentations
@@ -165,6 +173,13 @@ $endfor$
 
 % professional
 \section{Professional Activities and Service}
+\subsection{Institutional Service}
+$for(service.item)$
+\cvitemwithcomment{}{$service.item.name$}{$service.item.date$}
+
+$endfor$
+\bp
+
 \subsection{Affiliations}
 $for(professional.member)$
 \cvitemwithcomment{}{\textbf{$professional.member.name$}}{$professional.member.date$}
