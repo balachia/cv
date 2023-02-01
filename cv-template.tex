@@ -15,6 +15,9 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 
+% add custom cv numbering scheme
+\usepackage{etaremune}
+
 %% ModernCV themes
 \moderncvstyle{banking}
 %\renewcommand{\familydefault}{\sfdefault}
@@ -114,26 +117,32 @@ $endif$
 %$research$
 
 % pubs
+\newcounter{pubs}
+
 %\section{Publications \& Under Review}
 \section{Publications}
+\begin{etaremune}
 $for(paper)$
 $if(paper.pub)$
-$paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$.
+\stepcounter{pubs}\item $paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$.
 \medskip\bp
 
 $endif$
 $endfor$
+\end{etaremune}
 
 % working papers
 \section{Work in Progress}
+\begin{enumerate}
+\setcounter{enumi}{\value{pubs}}
 $for(paper)$
 \begin{samepage}
 $if(paper.wp)$
-$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
+\item $paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
 
 $endif$
 $if(paper.review)$
-$paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
+\item $paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
 
 $endif$
 $for(paper.awards)$
@@ -143,6 +152,7 @@ $endfor$
 \medskip\bp
 \end{samepage}
 $endfor$
+\end{enumerate}
 
 % conference presentations
 \section{Talks \& Presentations}
