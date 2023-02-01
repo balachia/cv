@@ -113,7 +113,7 @@ paper:
         title0: Producer Exploration Generates Categories without Audiences
         author: \textbf{Vashevko, A.}
         review: 1
-        status: (second round major revision, \textbf{Organization Science})
+        status: (conditionally accepted, \textbf{Organization Science})
         awards:
             -   name: \textbf{Finalist}, Best Proposal Award for Rigor in Research
                 org: SMS Competitive Strategy Interest Group
@@ -151,6 +151,7 @@ paper:
                 date: August 2016
     -   title: The Matthew Effect as Skill and Strategy
         author: \textbf{Vashevko, A.}
+        status: (in preparation)
         wp: 1
         pres:
             -   name: Strategic Management Society
@@ -159,9 +160,6 @@ paper:
             -   name: Population Ecology Conference
                 place: Virtual
                 date: June 2020
-    -   title: "Regional Variation: Do Leaders Matter?"
-        author: Chatterji, A., \textbf{A. Vashevko}
-        wp: 1
     -   title: Visualizing Hierachical Social Networks
         author: Gemici, K., \textbf{A. Vashevko}
         pub:
@@ -173,12 +171,19 @@ paper:
         on Cohesive Blocking"
         author: Gemici, K., \textbf{A. Vashevko}
         wp: 1
+        status: (in preparation)
     -   title: "Cohesive Blocking and Strength of Ties"
         author: Gemici, K., \textbf{A. Vashevko}
         wp: 1
+        status: (in preparation)
+    -   title: "Regional Variation: Do Leaders Matter?"
+        author: Chatterji, A., \textbf{A. Vashevko}
+        wp: 1
+        status: (data collection)
     -   title: "Pay Attention: Object Consideration as a Mechanism of Network Diffusion"
         author: \textbf{Vashevko, A.}
         wp: 1
+        status: (data collection)
         pres:
             -   name: Academy of Management
                 place: Vancouver, BC
@@ -191,6 +196,7 @@ paper:
                 date: January 2015
     -   title: "Purity and Genre: Social Boundedness and Organizational Identity in the Feature Film Market"
         author: Goldberg, A., \textbf{A. Vashevko}
+        status: (data collection)
         wp: 1
         pres:
             -   name: American Sociological Association
@@ -209,6 +215,10 @@ paper:
             volume: 8(4)
             year: 2014
             pp: 223-243
+    -   title: Multiplexity in complete network data
+        author: \textbf{Vashevko, A.}
+        status: (data collection)
+        wp: 1
 service:
     item:
         -   name: OB Faculty Recruiting Committee
