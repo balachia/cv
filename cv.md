@@ -80,45 +80,22 @@ positions:
         institution: National University of Singapore
         city: Singapore
 paper:
-    -   title: Does the Middle Conform or Compete? Quality Thresholds Predict the Locus of Innovation
-        author: \textbf{Vashevko, A.}
-        status: (accepted, \textbf{Organization Science})
-        pub:
-            journal: Organization Science
-            volume: 4(1)
-            year: 2019
-            pp: 88-108
-        pres:
-            -   name: Strategy Science Conference
-                place: Philadelphia, PA
-                date: June 2018
-            -   name: University of Hong Kong
-                place: Hong Kong
-                date: March 2018
-                invited: 1
-            -   name: Singapore Management University
-                place: Singapore
-                date: November 2016
-                invited: 1
-            -   name: Academy of Management
-                place: Anaheim, CA
-                date: August 2016
-            -   name: Society for the Advancment of Socio-Economics
-                place: Berkeley, CA
-                date: June 2016
-            -   name: Stanford/Berkeley OB Conference
-                place: Stanford, CA
-                date: January 2016
     -   title: The Natural Emergence of Category Effects on Rugged Landscapes
         title0: Producer Exploration Generates Categories without Audiences
         author: \textbf{Vashevko, A.}
-        review: 1
-        status: (conditionally accepted, \textbf{Organization Science})
+        pub:
+            journal: Organization Science
+            year: forthcoming
+        review0: 1
+        status0: (forthcoming, \textbf{Organization Science})
         awards:
             -   name: \textbf{Finalist}, Best Proposal Award for Rigor in Research
                 org: SMS Competitive Strategy Interest Group
                 date: August 2022
         pres:
+            -   name: European Group for Organizational Studies
+                place: Cagliari
+                date: July 2023
             -   name: American Sociological Association
                 place: Los Angeles, CA
                 date: August 2022
@@ -149,6 +126,35 @@ paper:
             -   name: Academy of Management
                 place: Anaheim, CA
                 date: August 2016
+    -   title: Does the Middle Conform or Compete? Quality Thresholds Predict the Locus of Innovation
+        author: \textbf{Vashevko, A.}
+        status: (accepted, \textbf{Organization Science})
+        pub:
+            journal: Organization Science
+            volume: 4(1)
+            year: 2019
+            pp: 88-108
+        pres:
+            -   name: Strategy Science Conference
+                place: Philadelphia, PA
+                date: June 2018
+            -   name: University of Hong Kong
+                place: Hong Kong
+                date: March 2018
+                invited: 1
+            -   name: Singapore Management University
+                place: Singapore
+                date: November 2016
+                invited: 1
+            -   name: Academy of Management
+                place: Anaheim, CA
+                date: August 2016
+            -   name: Society for the Advancment of Socio-Economics
+                place: Berkeley, CA
+                date: June 2016
+            -   name: Stanford/Berkeley OB Conference
+                place: Stanford, CA
+                date: January 2016
     -   title: The Matthew Effect as Skill and Strategy
         author: \textbf{Vashevko, A.}
         status: (in preparation)

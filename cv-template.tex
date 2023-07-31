@@ -124,7 +124,7 @@ $endif$
 \begin{etaremune}
 $for(paper)$
 $if(paper.pub)$
-\stepcounter{pubs}\item $paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $paper.pub.volume$: $paper.pub.pp$.
+\stepcounter{pubs}\item $paper.author$ ($paper.pub.year$), ``$paper.title$.'' $paper.pub.journal$. $if(paper.pub.volume)$$paper.pub.volume$: $paper.pub.pp$.$endif$
 \medskip\bp
 
 $endif$
@@ -140,15 +140,18 @@ $for(paper)$
 $if(paper.wp)$
 \item $paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
 
-$endif$
-$if(paper.review)$
-\item $paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
-
-$endif$
+% paper awards
 $for(paper.awards)$
 \cvitemwithcomment{}{\qquad $paper.awards.name$}{$paper.awards.date$}
 \cvitemwithcomment{}{\qquad\quad $paper.awards.org$}{}
 $endfor$
+
+$endif$
+% probably do not use the review condition?
+$if(paper.review)$
+\item $paper.author$, ``$paper.title$'' $if(paper.status)$\textit{$paper.status$}$endif$
+
+$endif$
 \medskip\bp
 \end{samepage}
 $endfor$
